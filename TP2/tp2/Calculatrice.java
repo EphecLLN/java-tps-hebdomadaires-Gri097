@@ -1,4 +1,4 @@
-package tp1;
+package tp2;
 
 /**
  * Cette classe modélise une calculatrice simplifiée avec une valeur courante et trois opérations. 
@@ -44,7 +44,7 @@ public class Calculatrice {
 	 */
 	public static void main(String [] args) {
 		// TODO Auto-generated method stub
-		Calculatrice myCalc = new Calculatrice(8.0);
+		Calculatrice myCalc = new Calculatrice(9.0);
 		myCalc.ajoute(5);
 		myCalc.soustrait(2);
 		System.out.println(myCalc.valeurCourante);
