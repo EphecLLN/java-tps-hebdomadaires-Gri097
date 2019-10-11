@@ -29,11 +29,22 @@ public class testjunit {
 		valeurCourante*=valeurCourante;
 	}
 	
+	/**
+	* Cette méthode calcule le carré d’un nombre.
+	* @param n : Un nombre entier quelconque
+	* @return Un nombre >= 0, résultat de la multiplication de n par lui-même
+	*/
+	public int carre(int n){
+	//TODO : A implementer
+		valeurCourante*=valeurCourante;
+	return 0;
+	}
+	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		testjunit myCalc = new testjunit(5);
+		testjunit myCalc = new testjunit(2);
 		myCalc.carre();
 		System.out.println(myCalc.valeurCourante);
 	}

@@ -1,0 +1,17 @@
+Précondition :
+
+Le nombre doit être un entier
+
+Postcondition :
+
+renvoie un entier
+
+Valeur test : 
+
+Valeurs des inputs | Output attendu
+-----------------------------------
+		0 		   |	   0
+		1 		   |	   1
+		-1 		   |	   1
+		-2 		   |	   4
+		2		   |	   4
