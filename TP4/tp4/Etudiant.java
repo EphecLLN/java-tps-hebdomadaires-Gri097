@@ -12,7 +12,19 @@ public class Etudiant {
 	int matricule;
 	//Cette variable d'instance est du type Date, disponible dans le même package
 	Date dateNaissance;
+	int nbEtudiant;
 	
+	
+
+	/**
+	 * @return the nbEtudiant
+	 */
+	public int getNbEtudiant() {
+		return nbEtudiant;
+	}
+
+
+
 	/*
 	 * Méthode main qui crée un étudiant et initialise les variables d'instance au départ de la ligne de commande
 	 * 

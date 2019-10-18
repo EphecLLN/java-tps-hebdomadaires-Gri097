@@ -7,21 +7,7 @@ package tp4;
  */
 public class Calculatrice {
 	
-	/**
-	 * @return the valeurCourante
-	 */
-	public double getValeurCourante() {
-		return valeurCourante;
-	}
-
-	/**
-	 * @param valeurCourante the valeurCourante to set
-	 */
-	public void setValeurCourante(double valeurCourante) {
-		this.valeurCourante = valeurCourante;
-	}
-
-	public double valeurCourante; // Stocke la valeur affichée sur l'écran de la calculatrice
+	double valeurCourante; // Stocke la valeur affichée sur l'écran de la calculatrice
 	
 	public Calculatrice ( double value ){
 		this.valeurCourante = value ;
@@ -58,7 +44,7 @@ public class Calculatrice {
 	 */
 	public static void main(String [] args) {
 		// TODO Auto-generated method stub
-		Calculatrice myCalc = new Calculatrice();
+		Calculatrice myCalc = new Calculatrice(8.0);
 		myCalc.ajoute(5);
 		myCalc.soustrait(2);
 		System.out.println(myCalc.valeurCourante);
